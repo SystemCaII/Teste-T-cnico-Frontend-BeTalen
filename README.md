@@ -2,6 +2,27 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+
+## Tecnologias Utilizadas
+
+React (Create React App)
+
+styled-components para estilização
+
+json-server para API simulada
+
+Yarn ou npm como gerenciador de pacotes
+
+## Recursos Implementados
+
+Tabela responsiva com filtragem por nome, cargo e telefone
+
+Layout adaptável para dispositivos móveis
+
+Uso de Media Queries para ajustes visuais em diferentes tamanhos de tela
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -44,3 +65,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
