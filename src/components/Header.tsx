@@ -5,6 +5,7 @@ const HeaderContainer = styled.header`
   background-color: #fff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
+  
 `;
 
 const HeaderContent = styled.div`
@@ -15,7 +16,7 @@ const HeaderContent = styled.div`
 `;
 
 const Logo = styled.img`
-  height: 40px;
+  height: 30px;
 `;
 
 const Header: React.FC = () => {

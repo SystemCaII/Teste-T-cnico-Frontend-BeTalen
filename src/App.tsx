@@ -11,9 +11,13 @@ const AppContainer = styled.div`
 `;
 
 const Title = styled.h1`
-font-size: 24px;
+font-size: 20px;
   color: #333;
   margin: 0;
+   @media (min-width: 769px) {
+     
+    margin-bottom: 0; 
+  }
 `;
 
 const HeaderRow = styled.div`
@@ -21,11 +25,20 @@ const HeaderRow = styled.div`
   justify-content: space-between; 
   align-items: center; 
   margin-bottom: 20px; 
+   @media (max-width: 768px) {
+    flex-direction: column; 
+    padding-top: 20px;
+    align-items: flex-start; 
+  }
 `;
 
 const SearchContainer = styled.div`
    width: 300px; 
    padding-top: 20px;
+    @media (min-width: 769px) {
+    
+    width: auto;
+  }
 `;
 
 const App: React.FC = () => {

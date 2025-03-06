@@ -32,14 +32,15 @@ interface SearchInputProps {
 const SearchInput: React.FC<SearchInputProps> = ({ onSearch }) => {
   return (
     <InputContainer>
-      <SearchIconWrapper>
-        <FiSearch size={20} /> 
-      </SearchIconWrapper>
+      
       <StyledInput
         type="text"
         placeholder="Pesquisar"
         onChange={(e) => onSearch(e.target.value)}
       />
+      <SearchIconWrapper>
+        <FiSearch size={20} /> 
+      </SearchIconWrapper>
     </InputContainer>
   );
 };
